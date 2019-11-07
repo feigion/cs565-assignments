@@ -1,0 +1,17 @@
+.body {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: white;
+    }
+.container{
+    width: 100%;
+    padding-right:25px;
+    padding-left:10px;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+.col-md-1{
+  border: 5px;
+
+}

@@ -10,36 +10,28 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="/Users/jason/Documents/GitHub/cs565-assignments/assignment3/exercise6.css" rel="stylesheet" type="text/css">
 
-  <title>Contact Form</title>
+  <title>FizzBuzz</title>
 </head>
-<div class="wrapper">
-  <header>
-    <h4>CONTACT US</h4>
-  </header>
-  <div class="form-element">
-    <input type="text" id="name" value="Name">
-  </div>
-  <div class="form-element">
-    <input type="text" id="email" value="Email">
-  </div>
-  <div class="form-element">
-    <input type="text" id="comments" value="">
-  </div>
-  <div class="buttons">
-    <input type="button" id="submit" value="SUBMIT">
-    <input type="button" id="reset" value="RESET">
-  </div>
 
-</div>
 <body>
   <h1>FizzBuzz</h1>
   <script type="text/javascript">
-    var i = 231756;
-    var o;
-    var n = i.toString().split("");
-    var reverse = n.reverse();
-    var joinString = reverse.join("");
-    console.log(joinString);
+    var i;
+    for (i = 1; i <= 100; i++) {
+      if (i % 3 == 0 && i % 5 != 0) {
+        console.log('fizz')
+      }
+      else if (i % 3 != 0 && i % 5 == 0) {
+        console.log('buzz')
+      }
+      else if (i % 3 == 0 && i % 5 == 0) {
+        console.log('fizzbuzz')
+      } else {
+        console.log(i);
+
+      }
+
+    }
   </script>
 
   <!-- Optional JavaScript -->
