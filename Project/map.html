@@ -21,5 +21,14 @@
     <div class="" id="map">
 
     </div>
+    <script type="text/javascript">
+      function initMap(){
+        var location = {lat: -15.363, lng: 100.044}
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: location
+        });
+      }
+    </script>
   </body>
 </html>
