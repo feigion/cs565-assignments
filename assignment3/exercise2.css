@@ -1,17 +1,35 @@
 .body {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: white;
-    }
-.container{
-    width: 100%;
-    padding-right:25px;
-    padding-left:10px;
-    margin-right:auto;
-    margin-left:auto;
-
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
 }
-.col-md-1{
-  border: 5px;
+h2{
+  text-align: center;
+}
+.box1 {
+  background: navy;
+}
 
+.box2 {
+  background: purple;
+}
+
+.box3 {
+  background: darkcyan;
+}
+
+.box4 {
+  background: salmon;
+}
+
+.box5 {
+  background: green;
+}
+
+.box6 {
+  background: yellowgreen;
+}
+
+.container {
+  color: white;
 }
