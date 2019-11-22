@@ -19,9 +19,9 @@
 </head>
 
 <body>
-  <form action="/submit" method="post">
+  <form class="border border-black" action="/submit" method="post">
     <h1>CONTACT US</h1>
-    <div class="form-group">
+    <div class="form-group class=" contactForm border border-black"">
       <label for="contactName">Name</label>
       <input type="text" name="contactName" value="" id="contactName">
     </div>
@@ -35,18 +35,15 @@
       <textarea class="form-control" name="contactComment" id="contactComment" rows="3"></textarea>
     </div>
 
-    <input type="submit" name="submitButton" id="submitButton" value="submit" />
-    <button type="button" name="resetButton" id="resetButton">
+    <input type="submit" class="btn btn-primary" name="submitButton" id="submitButton" value="Submit" />
+    <button type="button" class="btn btn-secondary" name="resetButton" id="resetButton">
       Reset
     </button>
   </form>
 
 
 
-
-
-
-<script type="text/javascript">
+  <script type="text/javascript">
     $('#submitButton2').on('click', function() {
       console.log('Name: ' + contactName.value);
       console.log('Email ' + contactEmail.value);

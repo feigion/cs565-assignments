@@ -1,6 +1,37 @@
-.row{
+.flex-container{
   color: white;
-  background-color: gray;
-  margin: 10px;
-  
+  display: flex;
+  flex-wrap: wrap;
+  width: 830px;
+}
+.flex-item-small{
+  width: 200px;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.flex-item-med{
+  width: 600px;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.flex-item-large{
+  width: 805px;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.border{
+  border-radius: 10px;
+  background: gray;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding-right: 40px;
+}
+
+h1{
+  text-align: center;
 }

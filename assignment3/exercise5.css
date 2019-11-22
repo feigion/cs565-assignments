@@ -1,10 +1,38 @@
 .container {
   color: white;
-  background-color: gray;
-  margin: 10px;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  /* background-color: gray; */
+  /* margin: 10px; */
+  /* width: 100%; */
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.border {
+  border-radius: 10px;
+  background: gray;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  /* padding-left: 15px;
+    padding-right: 10px; */
+}
+
+.row {
+  /* padding-left: 10px; */
+  /* padding-bottom: 10px; */
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#five {
+  /* margin-left: 5px; */
 }

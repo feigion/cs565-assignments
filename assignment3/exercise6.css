@@ -1,6 +1,25 @@
 .container{
-  background-color: gray;
   color: white;
-  display: grid;
+  /* display: grid; */
+}
+
+.border{
+  border-radius: 10px;
+  background: gray;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+    /* padding-left: 15px; This does seem to work...not sure why not here but working in #two */
+    padding-right: 10px;
+}
+
+#two{
+  padding-bottom: 240px;
+}
+.row{
+  padding-left: 10px;
+}
+h1{
+  text-align: center;
 
 }
