@@ -3,30 +3,37 @@
   font-family: Arial, Helvetica, sans-serif;
   background: white;
 }
+.row{
+  height: 40px;
+}
+
+.border{
+  padding-top: 5px;
+}
 h2{
   text-align: center;
 }
-.box1 {
+.col-1 {
   background: navy;
 }
 
-.box2 {
+.col-3 {
   background: purple;
 }
 
-.box3 {
+.col-4 {
   background: darkcyan;
 }
 
-.box4 {
+.col-8 {
   background: salmon;
 }
 
-.box5 {
+.col-12 {
   background: green;
 }
 
-.box6 {
+.col-6 {
   background: yellowgreen;
 }
 

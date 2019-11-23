@@ -15,13 +15,17 @@
 
 <body>
   <h1>Number, Backwards!</h1>
+  <h3>The function name is reverseString(enterStringHere!!)!</h3>
   <script type="text/javascript">
-    var i = 231756;
+  function reverseString(input){
+    var i = input;
     var o;
     var n = i.toString().split("");
     var reverse = n.reverse();
     var joinString = reverse.join("");
     console.log(joinString);
+  }
+  reverseString(12345)
   </script>
 
   <!-- Optional JavaScript -->

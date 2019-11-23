@@ -8,35 +8,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="/Users/jason/Documents/GitHub/cs565-assignments/assignment3/exercise8.css" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <title>Layout #6</title>
   </head>
   <body>
     <h1>Layout #6</h1>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 border border-white">
-      Header
-    </div>
-</div>
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-4 border border-white">
-        Aside
+      <div class="col-sm-12 border border-white">
+        Header
       </div>
-      <div class="col-sm-8 border border-white">
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-sm-push-4 border border-white">
         <h5>Article</h5>
         <p>Lorem ipsum dolor sit amet so much more text than this blah bsafdkslj jdfkalfj eui dfjkla , </p>
+      </div>
+      <div class="col-md-4 col-sm-pull-8 border border-white">
+        Aside
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 border border-white">
         Footer
       </div>
-
     </div>
+  </div>
 
-
-</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
